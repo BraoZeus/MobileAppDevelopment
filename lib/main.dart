@@ -4,13 +4,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'firebase_options.dart';
 
-import 'providers/study_provider.dart';
 import 'providers/project_provider.dart';
-import 'screens/home_screen.dart';
-import 'screens/study_screen.dart';
 import 'screens/login_screen.dart'; // <-- Imported your ACTUAL login screen!
 import 'screens/projects_screen.dart';
-import 'screens/calendar_screen.dart'; // <-- Add this!
 import 'services/notification_service.dart';
 
 void main() async {
@@ -23,7 +19,6 @@ void main() async {
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => StudyProvider()),
         ChangeNotifierProvider(create: (_) => ProjectProvider()),
       ],
       child: const StudyWellApp(),
@@ -71,9 +66,6 @@ class _MainLayoutState extends State<MainLayout> {
   int _currentIndex = 0;
 
   final List<Widget> _screens = [
-    const HomeScreen(),
-    const StudyScreen(),
-    const CalendarScreen(),
     const ProjectsScreen(),
   ];
 
