@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'home_screen.dart';
+import 'calendar_screen.dart';
+import 'study_screen.dart';
 import 'projects_screen.dart';
 
 class MainLayout extends StatefulWidget {
@@ -14,6 +17,9 @@ class _MainLayoutState extends State<MainLayout> {
 
   // The list of screens that correspond to the tabs
   final List<Widget> _screens = [
+    const HomeScreen(),
+    const CalendarScreen(),
+    const StudyScreen(),
     const ProjectsScreen(),
   ];
 
