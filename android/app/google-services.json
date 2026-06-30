@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1061936059311",
+    "project_id": "study-well-c7400",
+    "storage_bucket": "study-well-c7400.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061936059311:android:accb7c1f905cbd69cd555a",
+        "android_client_info": {
+          "package_name": "com.example.study_well"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061936059311-3m8sf64kqalbjsgvibntmghkjd2omu7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.study_well",
+            "certificate_hash": "a59329bc1f22610a93e8f13d4f9659badb7dbeaa"
+          }
+        },
+        {
+          "client_id": "1061936059311-f8h6oa88sei6ms3ojececqbqurqsh33k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFaAeaROY4IXMtIy_oXhGTMVwUACk4yQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061936059311-f8h6oa88sei6ms3ojececqbqurqsh33k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
